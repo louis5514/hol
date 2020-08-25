@@ -4,25 +4,23 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
-                sleep 5
+                echo 'Hello World'          
             }
         }
        stage('build') {
             steps {
-                echo 'Hello build'
-                sleep 5
-            }
-        }
+                echo 'Hello build'            
+            }               
+       }
         stage('deploy') {
             steps {
-                echo 'Hello deploy'
-                sleep 5
+                echo 'Hello deploy'            
             }
         }
         stage('test') {
             steps {
-                echo 'Hello test'
-                sleep 4
+                echo 'Hello test'            
             }
         }
+    }
+}
