@@ -8,13 +8,13 @@ pipeline {
                 sleep 5
             }
         }
-      } stage('build') {
+       stage('build') {
             steps {
                 echo 'Hello build'
                 sleep 5
             }
         }
-      } stage('deploy') {
+       stage('deploy') {
             steps {
                 echo 'Hello deploy'
                 sleep 5
